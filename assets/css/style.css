@@ -1,0 +1,148 @@
+:root {
+  /*--main-blue: hsla(166, 100%, 72%, 1);*/
+  --side-background:  #0c7231;
+  --side-text:  #b6d4b9;
+  --main-background:  #daeadb;
+  --title-text:  #896943;
+  --card-background:  #7fb487;
+  --dark-blue: #004455;
+  --light-blue: #eafcff;
+}
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+h2 {
+    color: var(--title-text);
+}
+.wrapper {
+	display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    padding: 5px;
+    transition: all 0.3s;
+    background-color: var(--side-background);
+    color: var(--side-text);
+}
+#main-area {
+    background-color: var(--main-background);
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #00745a;
+    background: #e9fff9;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #00745a;
+    background: #e9fff9;
+}
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #f4fffc;
+}
+
+.main-header {
+	margin-bottom: 50px;
+}
+
+a img {
+	max-height:100px;
+	max-width:100px;
+    object-fit: contain;
+}
+.jumbotron {
+	background-color: var(--light-blue);
+	color: black;
+	padding: 4px;
+	margin-bottom: 2px;
+}
+.jumbotron h1 {
+	font-style: italic;
+}
+.square {
+    height: 75px;
+    width: 75px;
+}
+.main-header {
+	margin-top: 20px;
+}
+.pub-date {
+	margin-bottom: 1.25rem;
+    color: #999;
+}
+.card {
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: var(--card-background);
+}
+.cards .num {
+  margin-right: 20px;
+  width:75px;
+  height:75px;
+  display:inline-flex;
+  align-items:center;
+  justify-content: center;
+  font-size:16px;
+  background-color:#d9a1e0;
+  border-radius:30%;
+  color:#fff;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+
+}
+.header-close {
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.header-open {
+    width: 36px;
+    cursor: pointer;
+}
+.hiddenToggle {
+  visibility: hidden;
+}
