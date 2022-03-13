@@ -30,6 +30,7 @@ h2 {
 }
 #main-area {
     background-color: var(--main-background);
+    max-width: 100%;
 }
 
 #sidebar.active {
@@ -96,6 +97,12 @@ a img {
 	padding: 4px;
 	margin-bottom: 2px;
 }
+.jumbotron .container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 95%;
+    max-width: 100%;
+}
 .jumbotron h1 {
 	font-style: italic;
 }
@@ -112,9 +119,9 @@ a img {
 }
 .card {
 	padding: 5px;
-	margin-bottom: 10px;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-bottom: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
 	background-color: var(--card-background);
 }
 

@@ -20,6 +20,7 @@ let getSidePanelCode = () => {
                 '<li><a href="restaurants.html">Restaurants</a></li>'+
                 '<li><a href="tier-list.html">Tier Lists</a></li>'+
                 '<li><a href="trips.html">Trips</a></li>'+
+                '<li><a href="#">Stars</a></li>'+
                 '<li><a href="contact.html">Contact Us</a></li>'+
             '</ul>'+
         '</nav>'
