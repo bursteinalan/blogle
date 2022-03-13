@@ -42,6 +42,7 @@ h2 {
     }
     #sidebar.active {
         margin-left: 0;
+        min-width: 100%;
     }
 }
 
@@ -116,23 +117,7 @@ a img {
 	margin-right: 5px;
 	background-color: var(--card-background);
 }
-.cards .num {
-  margin-right: 20px;
-  width:75px;
-  height:75px;
-  display:inline-flex;
-  align-items:center;
-  justify-content: center;
-  font-size:16px;
-  background-color:#d9a1e0;
-  border-radius:30%;
-  color:#fff;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
 
-}
 .header-close {
     font-size: 24px;
     cursor: pointer;
@@ -143,5 +128,5 @@ a img {
     cursor: pointer;
 }
 .hiddenToggle {
-  visibility: hidden;
+  /*visibility: hidden;*/
 }

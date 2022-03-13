@@ -4,10 +4,10 @@ let getSidePanelCode = () => {
 	console.log(page)
 	let sidePanelCodeBase = '<nav id="sidebar">'+
             '<div class="row">' +
-            '<div class="col-sm-8">'+
+            '<div class="col-8">'+
             '<h1><a href="index.html">Blogle!</a></h1>'+
             '</div>' +
-            '<div class="col-sm-4">'+
+            '<div class="col-4">'+
             '<div class="header_toggle float-end"> <span class="header-close" id="header-close">x</span> </div>'+
             '</div>' +
             '</div>' +
