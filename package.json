@@ -1,0 +1,26 @@
+{
+  "name": "blogle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "creds.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bursteinalan/blogle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bursteinalan/blogle/issues"
+  },
+  "homepage": "https://github.com/bursteinalan/blogle#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
