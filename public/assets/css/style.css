@@ -91,7 +91,6 @@ a img {
     object-fit: contain;
 }
 .jumbotron {
-	background-color: var(--light-blue);
 	color: black;
 	padding: 4px;
 	margin-bottom: 2px;
